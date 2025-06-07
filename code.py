@@ -1,4 +1,4 @@
-# this program is made to be use3d in Stanford Code in Place IDE
+# This program is made to be used in the Stanford Code in Place IDE
 
 from graphics import Canvas
 import math
@@ -183,11 +183,11 @@ def trees(canvas):
 def main():
     canvas = Canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
     bg(canvas)
-    # bg1(canvas)
-    # bg2(canvas,0,20)
-    # bg2(canvas,300,400
+    bg1(canvas)
+    bg2(canvas,0,20)
+    bg2(canvas,300,400
     sky(canvas)
-    # mountains(canvas)
+    mountains(canvas)
     village(canvas)
     bushes(canvas)
     trees(canvas)
